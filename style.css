@@ -17,7 +17,7 @@ h1 {
     /*text-shadow: 0px 0px 5px #FF0061;*/
 
     position: relative;
-    background-image: -webkit-linear-gradient(#0071ea 0%, #B6E8F1 46%, #006fef 50%, #32120E 54%, #378DBC 58%, #B6E8F1 90%, #B6E8F1 100%);
+    background-image: -webkit-linear-gradient(#0071ea 0%, #B6E8F1 46%, #027aff 50%, #32120E 58%, #378DBC 58%, #B6E8F1 90%, #B6E8F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.1px #0071ea;
@@ -30,8 +30,8 @@ h1 {
 
 h2{
 
-    color: #f34eff;
-    text-shadow: 0 0 15px #f34eff;
+    color: #ff00ae;
+    text-shadow: 0 0 15px rgba(255, 0, 174, 0.8);
     font-size: 40px;
     font-family: 'Audiowide', cursive;
 
@@ -45,7 +45,7 @@ h2{
 h3 {
     color: #000000;
     text-shadow: 0 0 1px #000000;
-    background: #f34eff;
+    background: #ff00ae;
     font-family: 'Audiowide', cursive;
 
 }
