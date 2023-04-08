@@ -40,52 +40,52 @@
 }
 
 
-.sun{
-    width:200px;
-    height:200px;
-    border-radius:100%;
-    position:absolute;
-    background-color:yellow;
-    left:calc(50%);
-    bottom:40%;
-    transform:translateX(-50%);
-    background-image: linear-gradient(red,yellow),linear-gradient(black,white);
-    clip-path:polygon(-50% 0px,150% -50%,150% 55%,-50% 55%,
-    -50% 62%,150% 62%,150% 70%,0 70%,
-    -50% 75%,150% 75%,150% 80%,0 80%,
-    -50% 82%,150% 82%,150% 85%,0 85%,
-    -50% 87%,150% 87%,150% 90%,0 90%,
-    -50% 92%,150% 92%,150% 95%,0 95%,
-    -50% 96%,150% 96%,150% 150%,0 150%);
-    box-shadow: rgba(255,128,0,0.7) 0px 0 20px;
+/*.sun{*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    border-radius:100%;*/
+/*    position:absolute;*/
+/*    background-color:yellow;*/
+/*    left:calc(50%);*/
+/*    bottom:40%;*/
+/*    transform:translateX(-50%);*/
+/*    background-image: linear-gradient(red,yellow),linear-gradient(black,white);*/
+/*    clip-path:polygon(-50% 0px,150% -50%,150% 55%,-50% 55%,*/
+/*    -50% 62%,150% 62%,150% 70%,0 70%,*/
+/*    -50% 75%,150% 75%,150% 80%,0 80%,*/
+/*    -50% 82%,150% 82%,150% 85%,0 85%,*/
+/*    -50% 87%,150% 87%,150% 90%,0 90%,*/
+/*    -50% 92%,150% 92%,150% 95%,0 95%,*/
+/*    -50% 96%,150% 96%,150% 150%,0 150%);*/
+/*    box-shadow: rgba(255,128,0,0.7) 0px 0 20px;*/
 
-}
+/*}*/
 
 
-.mountain{
-    position:absolute;
-    content:'';
-    bottom:35%;
-    left:calc(50% + var(--mountain-offset,0px));
-    border-left:calc(var(--mountain-base) / 2) solid transparent;
-    border-bottom:var(--mountain-height, 100px) solid var(--mountain-color1,white);
-    border-top:0px solid transparent;
-    border-right:calc(var(--mountain-base, 100px) / 2) solid transparent;
-    transform-origin:bottom;
-    transform:skewX(var(--mountain-tilt,0deg));
-}
+/*.mountain{*/
+/*    position:absolute;*/
+/*    content:'';*/
+/*    bottom:35%;*/
+/*    left:calc(50% + var(--mountain-offset,0px));*/
+/*    border-left:calc(var(--mountain-base) / 2) solid transparent;*/
+/*    border-bottom:var(--mountain-height, 100px) solid var(--mountain-color1,white);*/
+/*    border-top:0px solid transparent;*/
+/*    border-right:calc(var(--mountain-base, 100px) / 2) solid transparent;*/
+/*    transform-origin:bottom;*/
+/*    transform:skewX(var(--mountain-tilt,0deg));*/
+/*}*/
 
-.mountain:after{
-    content:'';
-    border-left:calc(var(--mountain-base) / 2) solid transparent;
-    border-bottom:var(--mountain-height, 100px) solid var(--mountain-color2,black);
-    border-top:0px solid transparent;
-    border-right:calc(var(--mountain-base, 100px) / 2) solid transparent;
-    transform:translate(-50%) scale(0.98);
-    position:absolute;
-    left:0;
-    top:0;
-}
+/*.mountain:after{*/
+/*    content:'';*/
+/*    border-left:calc(var(--mountain-base) / 2) solid transparent;*/
+/*    border-bottom:var(--mountain-height, 100px) solid var(--mountain-color2,black);*/
+/*    border-top:0px solid transparent;*/
+/*    border-right:calc(var(--mountain-base, 100px) / 2) solid transparent;*/
+/*    transform:translate(-50%) scale(0.98);*/
+/*    position:absolute;*/
+/*    left:0;*/
+/*    top:0;*/
+/*}*/
 
 .overlay{
     width:100%;
@@ -101,7 +101,7 @@
 
 
 .background-80s{
-    background: linear-gradient(to bottom, #010310 0,#0c1142 24%,#45125e 45%,#d53567 60%,#f0c3d9 65%,#0c1142 65%) fixed;
+    background: linear-gradient(to bottom, #010310 0,#0c1142 24%, #001341 45%, #0048d5 60%,#f0c3d9 65%,#0c1142 65%) fixed;
     background-size:100% var(--background-height,100vh);
     overflow:hidden;
     position:absolute;
@@ -191,12 +191,12 @@
     transform:translate(-50%,-50%);
     white-space:nowrap;
 }
-.outrun{
+/*.outrun{*/
 
-    font-family:'Road Rage';
-    font-weight:normal;
-    font-size: 50px;
-}
+/*    font-family:'Road Rage';*/
+/*    font-weight:normal;*/
+/*    font-size: 50px;*/
+/*}*/
 
 .glow {
 
@@ -294,20 +294,20 @@
 
 
 
-.road {
-    --grid-size:90px;
-    --road-color:#2a025d;
-    position:absolute;
-    bottom: -30%;
-    left:0;
-    margin-left: calc(50% - 200px /2 );
-    width: 200px;
-    height: 100%;
-    background-position-y: 0px;
-    background-image: repeating-linear-gradient(90deg, #a684cb 0%, #a684cb 2%, var(--road-color,rgba(115,59,139,1)) 2%, var(--road-color,rgba(115,59,139,1)) 98%,#a684cb 98%);
-    transform:perspective(50vh) rotateX(60deg);
-    z-index:-1;
-}
+/*.road {*/
+/*    --grid-size:90px;*/
+/*    --road-color:#2a025d;*/
+/*    position:absolute;*/
+/*    bottom: -30%;*/
+/*    left:0;*/
+/*    margin-left: calc(50% - 200px /2 );*/
+/*    width: 200px;*/
+/*    height: 100%;*/
+/*    background-position-y: 0px;*/
+/*    background-image: repeating-linear-gradient(90deg, #a684cb 0%, #a684cb 2%, var(--road-color,rgba(115,59,139,1)) 2%, var(--road-color,rgba(115,59,139,1)) 98%,#a684cb 98%);*/
+/*    transform:perspective(50vh) rotateX(60deg);*/
+/*    z-index:-1;*/
+/*}*/
 
 .road:after {
     content:'';
