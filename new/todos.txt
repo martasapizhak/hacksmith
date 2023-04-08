@@ -1,15 +1,24 @@
+before:
+    HEADER:
+        * register
+            will call out typeform
+        * countdown
+        * dates
+        * sponsors
+    MAIN
+        * get involved
+        * about
+        * tracks/themes
+        * faq
+    FOOTER w socials
 
 
-* register
-* countdown
-* dates
-* about
-* sponsors
-* tracks/themes + prizes
-* faq
-* footer w socials
-* schedule
-* get involved
-* projects
-* results
+ready:
+    MAIN
+        * prizes
+        * schedule
 
+
+after:
+    MAIN
+        * results
